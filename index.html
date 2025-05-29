@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> SAMUEL MOGAN </title>
-    <meta name="Author" description="SAMUEL MOGAN">
+    <title>SAMUEL MOGAN</title>
+    <meta name="Author" content="SAMUEL MOGAN">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1> SAMUEL MOGAN</h1>
+            <h1>SAMUEL MOGAN</h1>
             <nav>
                 <ul>
-                    <li><a href="home.html" class="active"> Home </a></li>
-                    <li><a href="about.html"> About </a></li>
-                    <li><a href="projects.html"> Projects </a></li>
-                    <li><a href="contact.html"> Contact </a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -24,20 +24,16 @@
 
     <section id="about" class="section">
         <div class="container">
-            <h2> About Me</h2>
-
-            <p> As a dedicated web developer, I'm passionate about crafting innovative solutions that exceed my clients' expectations. With a relentless focus on delivering exceptional results, I strive to build long-lasting relationships founded on trust, communication, and mutual understanding.
-                My approach is centered around empathy, creativity, and a meticulous attention to detail. I take the time to listen to my clients' needs, understand their goals, and develop tailored solutions that meet their unique requirements. Whether it's a sleek, modern website or a complex, data-driven application, I'm committed to delivering high-quality work that not only meets but surpasses expectations.
-                looking forward, I'm excited to continue pushing the boundaries of what's possible in web development. I'm constantly seeking out new technologies, techniques, and best practices to stay ahead of the curve and ensure my clients receive the most innovative, effective solutions available. Let's build something amazing together!</p>
+            <h2>About Me</h2>
+            <p>As a dedicated web developer, I'm passionate about crafting innovative solutions that exceed my clients' expectations. With a relentless focus on delivering exceptional results, I strive to build long-lasting relationships founded on trust, communication, and mutual understanding. My approach is centered around empathy, creativity, and meticulous attention to detail. I take the time to listen to my clients' needs, understand their goals, and develop tailored solutions that meet their unique requirements. Whether it's a sleek, modern website or a complex, data-driven application, I'm committed to delivering high-quality work that not only meets but surpasses expectations. Looking forward, I'm excited to continue pushing the boundaries of what's possible in web development. I'm constantly seeking out new technologies, techniques, and best practices to stay ahead of the curve and ensure my clients receive the most innovative, effective solutions available. Let's build something amazing together!</p>
         </div>
-
     </section>
 
     <section id="projects" class="section">
         <div class="container">
             <h2>Projects</h2>
             <div id="projects-container">
-                <!-- My projects will be dynamically added here using JavaScript -->
+                <!-- Project cards will be dynamically added here -->
             </div>
         </div>
     </section>
@@ -45,18 +41,30 @@
     <section class="contact">
         <h2>Contact Me</h2>
         <form action="mailto:sammokogoti77@example.com" method="post" enctype="text/plain">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <textarea name="message" placeholder=" Message" required></textarea>
-          <input type="submit" value="Send Message">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <input type="submit" value="Send Message">
         </form>
-      </section>
+    </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 MOGAN </p>
-        </div>
-    </footer>
+    <div class="container">
+        <p>
+            &copy; 2024 MOGAN &mdash; 
+            <a href="https://github.com/Moganzk" target="_blank" rel="noopener" style="color:#6366f1;text-decoration:none;font-weight:bold;">
+                GitHub
+            </a> |
+            <a href="index.html" style="color:#6366f1;text-decoration:none;">Home</a> |
+            <a href="about.html" style="color:#6366f1;text-decoration:none;">About</a> |
+            <a href="projects.html" style="color:#6366f1;text-decoration:none;">Projects</a> |
+            <a href="contact.html" style="color:#6366f1;text-decoration:none;">Contact</a>
+        </p>
+        <p style="font-size:0.95em;color:#888;margin-top:0.5em;">
+            Built with HTML, CSS, JavaScript &mdash; Last updated: 2024
+        </p>
+    </div>
+</footer>
 
     <script src="script.js"></script>
 </body>
